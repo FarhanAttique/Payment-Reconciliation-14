@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-28 18:44:58.364782",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "total_of_sales_invoice",
+  "total_of_payment",
+  "difference_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "total_of_sales_invoice",
+   "fieldtype": "Data",
+   "label": "Total of Sales Invoice"
+  },
+  {
+   "fieldname": "total_of_payment",
+   "fieldtype": "Data",
+   "label": "Total of Payment"
+  },
+  {
+   "fieldname": "difference_amount",
+   "fieldtype": "Currency",
+   "label": "Difference Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_virtual": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-28 18:44:58.364782",
+ "modified_by": "Administrator",
+ "module": "Payment Reconciliation",
+ "name": "Cal Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
