@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include payment_reconciliation *.css
+recursive-include payment_reconciliation *.csv
+recursive-include payment_reconciliation *.html
+recursive-include payment_reconciliation *.ico
+recursive-include payment_reconciliation *.js
+recursive-include payment_reconciliation *.json
+recursive-include payment_reconciliation *.md
+recursive-include payment_reconciliation *.png
+recursive-include payment_reconciliation *.py
+recursive-include payment_reconciliation *.svg
+recursive-include payment_reconciliation *.txt
+recursive-exclude payment_reconciliation *.pyc
